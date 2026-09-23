@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>직무 탐색 - CareerLog</title>
+
+    <link rel="stylesheet" href="../assets/css/common/reset.css" />
+    <link rel="stylesheet" href="../assets/css/common/variables.css" />
+    <link rel="stylesheet" href="../assets/css/common/common.css" />
+    <link rel="stylesheet" href="../assets/css/components/button.css" />
+    <link rel="stylesheet" href="../assets/css/components/card.css" />
+    <link rel="stylesheet" href="../assets/css/components/navbar.css" />
+    <link rel="stylesheet" href="../assets/css/pages/jobs.css" />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <h1 class="logo">CareerLog</h1>
+
+      <nav>
+        <a href="../index.html">홈</a>
+        <a href="converter.html">경험 변환</a>
+        <a href="diagnose.html">노동환경 진단</a>
+        <a href="jobs.html">직무 탐색</a>
+      </nav>
+
+      <a href="register.html" class="btn">경험 등록</a>
+    </header>
+
+    <main class="container">
+      <section class="title">
+        <p>JOB EXPLORATION</p>
+        <h2>직무 탐색</h2>
+        <p>나의 경험과 역량을 활용할 수 있는 직무를 찾아보세요.</p>
+      </section>
+
+      <section class="card search">
+        <label for="skill">관심 역량</label>
+
+        <select id="skill">
+          <option value="">선택해 주세요</option>
+          <option value="communication">의사소통</option>
+          <option value="management">관리</option>
+          <option value="problem">문제 해결</option>
+        </select>
+
+        <button
+          type="button"
+          id="searchButton"
+          class="btn btn-primary"
+        ></button>
+      </section>
+
+      <section class="job-list">
+        <div class="card job" id="serviceJob">
+          <h3>서비스 기획자</h3>
+          <p>서비스의 문제를 찾고 개선 방법을 생각하는 직무입니다.</p>
+          <p>관련 역량: 의사소통 · 문제 해결</p>
+        </div>
+        <div class="card job" id="managerJob">
+          <h3>매장 관리자</h3>
+          <p>매장의 운영과 직원, 재고 등을 관리하는 직무입니다.</p>
+          <p>관련 역량: 관리 · 의사소통</p>
+        </div>
+        <div class="card job" id="counselJob">
+          <h3>고객 상담</h3>
+          <p>고객의 문의를 듣고 문제 해결을 도와주는 직무입니다.</p>
+          <p>관련 역량: 의사소통 · 문제 해결</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
