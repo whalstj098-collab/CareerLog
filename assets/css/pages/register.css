@@ -1,0 +1,51 @@
+/* title */
+.title {
+  width: 700px;
+  max-width: 100%;
+  margin: 40px auto 30px;
+}
+
+.title p {
+  color: var(--gray);
+  font-size: 14px;
+}
+
+.title h2 {
+  margin: 8px 0;
+  font-size: 30px;
+}
+
+/* form */
+form {
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin: 20px 0 8px;
+  font-size: 14px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border);
+  background: white;
+  font-size: 14px;
+}
+
+textarea {
+  resize: none;
+}
+
+/* buttons */
+.form-button {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 24px;
+}

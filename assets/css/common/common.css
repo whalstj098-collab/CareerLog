@@ -1,7 +1,11 @@
 body {
-  background: var(--bg);
-  color: var(--black);
-  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 .container {
@@ -12,4 +16,14 @@ body {
 
 a:hover {
   text-decoration: underline;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 5%;
+  border-top: 1px solid var(--border);
+  color: var(--gray);
+  font-size: 13px;
 }

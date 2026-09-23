@@ -78,7 +78,7 @@
   margin-top: 10px;
 }
 
-/* Side */
+/* side */
 .content aside section {
   margin-bottom: 16px;
 }
@@ -92,15 +92,4 @@
   color: var(--gray);
   font-size: 13px;
   line-height: 1.5;
-}
-
-/* footer */
-footer {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
-  padding: 20px 5%;
-  border-top: 1px solid var(--border);
-  color: var(--gray);
-  font-size: 13px;
 }
