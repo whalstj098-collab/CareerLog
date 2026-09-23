@@ -1,0 +1,58 @@
+/* title */
+.title {
+  width: 700px;
+  max-width: 100%;
+  margin: 40px auto 30px;
+}
+
+.title p {
+  color: var(--gray);
+  font-size: 14px;
+}
+
+.title h2 {
+  margin: 8px 0;
+  font-size: 30px;
+}
+
+/* diagnose */
+.diagnose {
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin: 20px 0 8px;
+  font-size: 14px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border);
+  background: white;
+  font-size: 14px;
+}
+
+#diagnoseButton {
+  margin-top: 24px;
+}
+
+/* result */
+.result {
+  width: 700px;
+  max-width: 100%;
+  margin: 24px auto 40px;
+}
+
+.result h2 {
+  margin-bottom: 12px;
+}
+
+.result p {
+  color: var(--gray);
+  line-height: 1.6;
+}

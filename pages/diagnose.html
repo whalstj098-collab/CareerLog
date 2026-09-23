@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>노동환경 진단 - CareerLog</title>
+
+    <link rel="stylesheet" href="../assets/css/common/reset.css" />
+    <link rel="stylesheet" href="../assets/css/common/variables.css" />
+    <link rel="stylesheet" href="../assets/css/common/common.css" />
+    <link rel="stylesheet" href="../assets/css/components/button.css" />
+    <link rel="stylesheet" href="../assets/css/components/card.css" />
+    <link rel="stylesheet" href="../assets/css/components/navbar.css" />
+    <link rel="stylesheet" href="../assets/css/pages/diagnose.css" />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <h1 class="logo">CareerLog</h1>
+
+      <nav>
+        <a href="../index.html">홈</a>
+        <a href="converter.html">경험 변환</a>
+        <a href="diagnose.html">노동환경 진단</a>
+        <a href="jobs.html">직무 탐색</a>
+      </nav>
+
+      <a href="register.html" class="btn">경험 등록</a>
+    </header>
+
+    <main class="container">
+      <section class="title">
+        <p>LABOR CHECK</p>
+        <h2>노동환경 진단</h2>
+        <p>아르바이트 근로조건을 입력하고 확인해 보세요.</p>
+      </section>
+
+      <section class="card diagnose">
+        <label for="wage">시급</label>
+        <input type="number" id="wage" placeholder="예: 10320" />
+
+        <label for="contract">근로계약서 작성</label>
+        <select id="contract">
+          <option value="">선택해 주세요</option>
+          <option value="yes">작성함</option>
+          <option value="no">작성하지 않음</option>
+        </select>
+
+        <label for="pay">급여명세서 제공</label>
+        <select id="pay">
+          <option value="">선택해 주세요</option>
+          <option value="yes">받음</option>
+          <option value="no">받지 않음</option>
+        </select>
+
+        <label for="break">휴게시간 안내</label>
+        <select id="break">
+          <option value="">선택해 주세요</option>
+          <option value="yes">안내받음</option>
+          <option value="no">안내받지 않음</option>
+        </select>
+
+        <button type="button" id="diagnoseButton" class="btn btn-primary">
+          진단하기
+        </button>
+      </section>
+
+      <section class="card result">
+        <h2>진단 결과</h2>
+
+        <p id="resultText">근로조건을 입력하고 진단하기를 눌러 주세요.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>CareerLog</p>
+      <p>오늘의 경험을 내일의 경력으로</p>
+    </footer>
+
+    <script src="../assets/js/pages/diagnose.js"></script>
+  </body>
+</html>
