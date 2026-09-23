@@ -1,0 +1,15 @@
+body {
+  background: var(--bg);
+  color: var(--black);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a:hover {
+  text-decoration: underline;
+}

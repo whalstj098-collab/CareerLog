@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CareerLog</title>
+
+    <link rel="stylesheet" href="assets/css/common/reset.css" />
+    <link rel="stylesheet" href="assets/css/common/variables.css" />
+    <link rel="stylesheet" href="assets/css/common/common.css" />
+    <link rel="stylesheet" href="assets/css/components/button.css" />
+    <link rel="stylesheet" href="assets/css/components/card.css" />
+    <link rel="stylesheet" href="assets/css/components/navbar.css" />
+    <link rel="stylesheet" href="assets/css/pages/index.css" />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <h1 class="logo">CareerLog</h1>
+
+      <nav>
+        <a href="index.html">홈</a>
+        <a href="pages/converter.html">경험 변환</a>
+        <a href="pages/diagnose.html">노동환경 진단</a>
+        <a href="pages/jobs.html">직무 탐색</a>
+      </nav>
+
+      <a href="pages/register.html" class="btn">경험 등록</a>
+    </header>
+
+    <main class="container">
+      <section class="title">
+        <p>CAREERLOG</p>
+        <h2>나의 커리어 대시보드</h2>
+        <p>아르바이트 경험을 경력과 역량으로 정리해 보세요.</p>
+      </section>
+
+      <section class="summary">
+        <div class="card">
+          <p>등록한 경험</p>
+          <strong>3개</strong>
+        </div>
+
+        <div class="card">
+          <p>보유 역량</p>
+          <strong>8개</strong>
+        </div>
+
+        <div class="card">
+          <p>진단 완료</p>
+          <strong>2회</strong>
+        </div>
+      </section>
+
+      <section class="content">
+        <section class="card experience">
+          <h2>나의 경험</h2>
+
+          <div class="experience-item">
+            <h3>카페 아르바이트</h3>
+            <p>2026.03 ~ 2026.06</p>
+            <p>고객 응대 · 음료 제조 · 매장 관리</p>
+            <a href="pages/converter.html">경험 변환</a>
+          </div>
+
+          <div class="experience-item">
+            <h3>편의점 아르바이트</h3>
+            <p>2025.12 ~ 2026.02</p>
+            <p>재고 관리 · 계산 · 고객 응대</p>
+            <a href="pages/converter.html">경험 변환</a>
+          </div>
+
+          <div class="experience-item">
+            <h3>서점 아르바이트</h3>
+            <p>2025.07 ~ 2025.10</p>
+            <p>상품 정리 · 고객 응대 · 매장 관리</p>
+            <a href="pages/converter.html">경험 변환</a>
+          </div>
+
+          <a href="pages/register.html" class="btn">+ 새 경험 등록</a>
+        </section>
+
+        <aside>
+          <section class="card">
+            <h2>추천 직무</h2>
+            <h3>서비스 기획자</h3>
+            <p>고객 응대 경험과 의사소통 역량을 활용할 수 있어요.</p>
+            <a href="pages/jobs.html">직무 탐색</a>
+          </section>
+
+          <section class="card">
+            <h2>노동환경 진단</h2>
+            <p>내가 일했던 아르바이트의 근로조건을 확인해 보세요.</p>
+            <a href="pages/diagnose.html" class="btn">진단하기</a>
+          </section>
+        </aside>
+      </section>
+    </main>
+
+    <footer>
+      <p>CareerLog</p>
+      <p>오늘의 경험을 내일의 경력으로</p>
+    </footer>
+
+    <script src="assets/js/pages/index.js"></script>
+  </body>
+</html>
